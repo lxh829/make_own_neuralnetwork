@@ -1,0 +1,5 @@
+training_data_file = open('mnist_train_100.csv', 'r')
+training_data_list = training_data_file.readlines()
+training_data_file.close()
+print(training_data_list)
+print(len(training_data_list))
